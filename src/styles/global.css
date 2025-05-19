@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+:root {
+  --color-rosa-claro: #f6d7da;
+  --color-nude-bege: #fceee9;
+  --color-branco: #ffffff;
+  --color-cinza-suave: #555555;
+  --color-texto-escuro: #333333;
+  --color-rosa-escuro: #e6b8bd;
+  --color-sombra: rgba(0, 0, 0, 0.1);
+  
+  --font-titulo: 'Playfair Display', serif;
+  --font-corpo: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-corpo);
+  color: var(--color-texto-escuro);
+  background-color: var(--color-branco);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-titulo);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-rosa-escuro);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-cinza-suave);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--color-rosa-claro);
+  color: var(--color-texto-escuro);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-rosa-escuro);
+  color: var(--color-branco);
+}
+
+.btn-secondary {
+  background-color: var(--color-nude-bege);
+  color: var(--color-texto-escuro);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-cinza-suave);
+  color: var(--color-branco);
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-rosa-claro);
+  margin: 1rem auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.2rem;
+  }
+}
