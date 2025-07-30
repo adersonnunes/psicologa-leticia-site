@@ -9,9 +9,9 @@
 ## 📸 Preview do Site
 
 🖥️ Acesse a versão online do site clicando aqui:  
-👉 **[psicologa-leticia-site.vercel.app](https://psicologa-leticia-site.vercel.app)** *(ou conforme onde estiver hospedado)*
+👉 **[adersonnunes.github.io/psicologa-leticia-site/](https://adersonnunes.github.io/psicologa-leticia-site/)** 
 
-![Preview](https://user-images.githubusercontent.com/your-image-here.png)
+
 
 ---
 
