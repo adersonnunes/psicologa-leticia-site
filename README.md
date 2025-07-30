@@ -88,7 +88,7 @@ Mas sinta-se à vontade para **avaliar, dar uma estrela ⭐ e comentar sugestõe
 
 Se você gostou do projeto e quer entrar em contato:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/adersonnunes)
+- 💼 [LinkedIn](https://www.linkedin.com/in/aderson-ferreira/)
 - 📧 adersonnunes@gmail.com
 
 ---
